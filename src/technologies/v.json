@@ -479,7 +479,7 @@
     "saas": true,
     "website": "https://www.voracio.co.uk"
   },
-  "Vue-Storefront": {
+  "Vue Storefront": {
     "cats": [
       6,
       12
@@ -488,10 +488,10 @@
     "icon": "vue-storefront.svg",
     "implies": "Vue.js",
     "meta": {
-      "generator": "^Vue Storefront\\ [0-9.]+?$;version=2"
+      "generator": "^Vue Storefront\\ [0-9.]+?$"
     },
     "scripts": [
-      "(?:\\/([\\d.]+))?\\/vsf-layout;version=1"
+      "vsf-layout(?:-\\w*)?\\.?(?:[0-9a-fA-F]{7,40}|[\\d]+(?:.[\\d]+(?:.[\\d]+)?)?)(?:\\.min)?\\.js"
     ],
     "website": "https://www.vuestorefront.io/"
   },
